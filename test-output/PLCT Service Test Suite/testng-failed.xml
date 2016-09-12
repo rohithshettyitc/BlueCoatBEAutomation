@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PLCT Service Test Suite]">
+  <parameter name="applicationResponseContentType" value="application/json"/>
+  <parameter name="tenantId" value="uopx"/>
+  <parameter name="port" value=""/>
+  <parameter name="scheme" value="http"/>
+  <parameter name="testEnv" value="qa.aptimus"/>
+  <parameter name="seleniumServer" value="localhost"/>
+  <parameter name="baseVersion" value="3"/>
+  <parameter name="authType" value="APOLLOASSERTIONS"/>
+  <parameter name="baseContextName" value="plct"/>
+  <parameter name="applicationRequestContentType" value="application/json"/>
+  <parameter name="seleniumPort" value="4444"/>
+  <test name="PlCT Service Tests (failed)">
+    <parameter name="tenantId" value="uopx"/>
+    <parameter name="port" value=""/>
+    <parameter name="applicationResponseContentType" value="application/json"/>
+    <parameter name="scheme" value="http"/>
+    <parameter name="testEnv" value="qa.aptimus"/>
+    <parameter name="baseVersion" value="3"/>
+    <parameter name="baseContextName" value="plct"/>
+    <parameter name="authType" value="APOLLOASSERTIONS"/>
+    <parameter name="applicationRequestContentType" value="application/json"/>
+    <classes>
+      <class name="com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="bluecoatcloud_DirectProvider_tests"/>
+          <include name="setUp"/>
+          <include name="generatePerformanceReport"/>
+        </methods>
+      </class> <!-- com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest -->
+    </classes>
+  </test> <!-- PlCT Service Tests (failed) -->
+</suite> <!-- Failed suite [PLCT Service Test Suite] -->

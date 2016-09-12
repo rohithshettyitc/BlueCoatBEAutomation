@@ -1,0 +1,517 @@
+<html>
+<head>
+<title>TestNG:  BlueCoat Threat pulse Service Tests </title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BlueCoat Threat pulse Service Tests </h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 30 00:29:32 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>3 seconds (3090 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest.bluecoatcloud_DirectProvider_tests()'><b>bluecoatcloud_DirectProvider_tests</b><br>Test class: com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest<br>Test method: bluecoatcloud directprovider<br>Parameters: Between 08/30/16 and 08/31/16, {
+  "action": "DashboardServices",
+  "method": "save",
+  "data": [
+    {
+      "id": 431,
+      "name": "overview_dbd",
+      "portlets": [
+        {
+          "column": 0,
+          "position": 0,
+          "collapsed": false,
+          "id": 2907,
+          "reportDefinitionId": 19,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"chart\"}"
+        },
+        {
+          "column": 0,
+          "position": 1,
+          "collapsed": false,
+          "id": 2901,
+          "reportDefinitionId": 55,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"grid\"}"
+        },
+        {
+          "column": 1,
+          "position": 0,
+          "collapsed": false,
+          "id": 2909,
+          "reportDefinitionId": 67,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"both\"}"
+        },
+        {
+          "column": 1,
+          "position": 1,
+          "collapsed": false,
+          "id": 2903,
+          "reportDefinitionId": 36,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"both\"}"
+        },
+        {
+          "column": 1,
+          "position": 2,
+          "collapsed": false,
+          "id": 2899,
+          "reportDefinitionId": 37,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"grid\"}"
+        }
+      ],
+      "dateFilter": "{\"dateStart\":1472497172666,\"dateEnd\":1472583572666,\"dateRelativeUnit\":null}"
+    }
+  ],
+  "type": "rpc",
+  "tid": 19
+}<br/>
+<a href="#Output-1248040939" onClick='toggleBox("Output-1248040939", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1248040939" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1248040939">
+djn API reuest<br/>
+POST Request: https://portal.qa3.bluecoatcloud.com/djn/directprovider<br/>
+Responsefrom API.. {"tid":19,"action":"DashboardServices","method":"save","result":[2907,2901,2909,2903,2899],"type":"rpc"}<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest@309cbd4b</td></tr>
+<tr>
+<td title='com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest.bluecoatcloud_DirectProvider_tests()'><b>bluecoatcloud_DirectProvider_tests</b><br>Test class: com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest<br>Test method: bluecoatcloud directprovider<br>Parameters: Between 08/29/16 and 08/30/16, {
+  "action": "DashboardServices",
+  "method": "save",
+  "data": [
+    {
+      "id": 431,
+      "name": "overview_dbd",
+      "portlets": [
+        {
+          "column": 0,
+          "position": 0,
+          "collapsed": false,
+          "id": 2907,
+          "reportDefinitionId": 19,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"chart\"}"
+        },
+        {
+          "column": 0,
+          "position": 1,
+          "collapsed": false,
+          "id": 2901,
+          "reportDefinitionId": 55,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"grid\"}"
+        },
+        {
+          "column": 1,
+          "position": 0,
+          "collapsed": false,
+          "id": 2909,
+          "reportDefinitionId": 67,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"both\"}"
+        },
+        {
+          "column": 1,
+          "position": 1,
+          "collapsed": false,
+          "id": 2903,
+          "reportDefinitionId": 36,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"both\"}"
+        },
+        {
+          "column": 1,
+          "position": 2,
+          "collapsed": false,
+          "id": 2899,
+          "reportDefinitionId": 37,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"grid\"}"
+        }
+      ],
+      "dateFilter": "{\"dateStart\":1472410772684,\"dateEnd\":1472497172684,\"dateRelativeUnit\":null}"
+    }
+  ],
+  "type": "rpc",
+  "tid": 22
+}<br/>
+<a href="#Output-942637334" onClick='toggleBox("Output-942637334", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-942637334" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-942637334">
+djn API reuest<br/>
+POST Request: https://portal.qa3.bluecoatcloud.com/djn/directprovider<br/>
+Responsefrom API.. {"tid":22,"action":"DashboardServices","method":"save","result":[2907,2901,2909,2903,2899],"type":"rpc"}<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest@309cbd4b</td></tr>
+<tr>
+<td title='com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest.bluecoatcloud_DirectProvider_tests()'><b>bluecoatcloud_DirectProvider_tests</b><br>Test class: com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest<br>Test method: bluecoatcloud directprovider<br>Parameters: Between 08/28/16 and 09/04/16, {
+  "action": "DashboardServices",
+  "method": "save",
+  "data": [
+    {
+      "id": 431,
+      "name": "overview_dbd",
+      "portlets": [
+        {
+          "column": 0,
+          "position": 0,
+          "collapsed": false,
+          "id": 2907,
+          "reportDefinitionId": 19,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"chart\"}"
+        },
+        {
+          "column": 0,
+          "position": 1,
+          "collapsed": false,
+          "id": 2901,
+          "reportDefinitionId": 55,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"grid\"}"
+        },
+        {
+          "column": 1,
+          "position": 0,
+          "collapsed": false,
+          "id": 2909,
+          "reportDefinitionId": 67,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"both\"}"
+        },
+        {
+          "column": 1,
+          "position": 1,
+          "collapsed": false,
+          "id": 2903,
+          "reportDefinitionId": 36,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"both\"}"
+        },
+        {
+          "column": 1,
+          "position": 2,
+          "collapsed": false,
+          "id": 2899,
+          "reportDefinitionId": 37,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"grid\"}"
+        }
+      ],
+      "dateFilter": "{\"dateStart\":1472929172685,\"dateEnd\":1472324372685,\"dateRelativeUnit\":null}"
+    }
+  ],
+  "type": "rpc",
+  "tid": 6
+}<br/>
+<a href="#Output-1086084502" onClick='toggleBox("Output-1086084502", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1086084502" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1086084502">
+djn API reuest<br/>
+POST Request: https://portal.qa3.bluecoatcloud.com/djn/directprovider<br/>
+Responsefrom API.. {"tid":6,"action":"DashboardServices","method":"save","result":[2907,2901,2909,2903,2899],"type":"rpc"}<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest@309cbd4b</td></tr>
+<tr>
+<td title='com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest.bluecoatcloud_DirectProvider_tests()'><b>bluecoatcloud_DirectProvider_tests</b><br>Test class: com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest<br>Test method: bluecoatcloud directprovider<br>Parameters: Between 08/21/16 and 08/28/16, {
+  "action": "DashboardServices",
+  "method": "save",
+  "data": [
+    {
+      "id": 431,
+      "name": "overview_dbd",
+      "portlets": [
+        {
+          "column": 0,
+          "position": 0,
+          "collapsed": false,
+          "id": 2907,
+          "reportDefinitionId": 19,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"chart\"}"
+        },
+        {
+          "column": 0,
+          "position": 1,
+          "collapsed": false,
+          "id": 2901,
+          "reportDefinitionId": 55,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"grid\"}"
+        },
+        {
+          "column": 1,
+          "position": 0,
+          "collapsed": false,
+          "id": 2909,
+          "reportDefinitionId": 67,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"both\"}"
+        },
+        {
+          "column": 1,
+          "position": 1,
+          "collapsed": false,
+          "id": 2903,
+          "reportDefinitionId": 36,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"both\"}"
+        },
+        {
+          "column": 1,
+          "position": 2,
+          "collapsed": false,
+          "id": 2899,
+          "reportDefinitionId": 37,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"grid\"}"
+        }
+      ],
+      "dateFilter": "{\"dateStart\":1471719572685,\"dateEnd\":1472324372685,\"dateRelativeUnit\":null}"
+    }
+  ],
+  "type": "rpc",
+  "tid": 6
+}<br/>
+<a href="#Output-1817929566" onClick='toggleBox("Output-1817929566", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1817929566" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1817929566">
+djn API reuest<br/>
+POST Request: https://portal.qa3.bluecoatcloud.com/djn/directprovider<br/>
+Responsefrom API.. {"tid":6,"action":"DashboardServices","method":"save","result":[2907,2901,2909,2903,2899],"type":"rpc"}<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest@309cbd4b</td></tr>
+<tr>
+<td title='com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest.bluecoatcloud_DirectProvider_tests()'><b>bluecoatcloud_DirectProvider_tests</b><br>Test class: com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest<br>Test method: bluecoatcloud directprovider<br>Parameters: Between 08/01/16 and 08/31/16, {
+  "action": "DashboardServices",
+  "method": "save",
+  "data": [
+    {
+      "id": 431,
+      "name": "overview_dbd",
+      "portlets": [
+        {
+          "column": 0,
+          "position": 0,
+          "collapsed": false,
+          "id": 2907,
+          "reportDefinitionId": 19,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"chart\"}"
+        },
+        {
+          "column": 0,
+          "position": 1,
+          "collapsed": false,
+          "id": 2901,
+          "reportDefinitionId": 55,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"grid\"}"
+        },
+        {
+          "column": 1,
+          "position": 0,
+          "collapsed": false,
+          "id": 2909,
+          "reportDefinitionId": 67,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"both\"}"
+        },
+        {
+          "column": 1,
+          "position": 1,
+          "collapsed": false,
+          "id": 2903,
+          "reportDefinitionId": 36,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"both\"}"
+        },
+        {
+          "column": 1,
+          "position": 2,
+          "collapsed": false,
+          "id": 2899,
+          "reportDefinitionId": 37,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"grid\"}"
+        }
+      ],
+      "dateFilter": "{\"dateStart\":1469989800000,\"dateEnd\":1472668199999,\"dateRelativeUnit\":null}"
+    }
+  ],
+  "type": "rpc",
+  "tid": 6
+}<br/>
+<a href="#Output-1233629831" onClick='toggleBox("Output-1233629831", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1233629831" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1233629831">
+djn API reuest<br/>
+POST Request: https://portal.qa3.bluecoatcloud.com/djn/directprovider<br/>
+Responsefrom API.. {"tid":6,"action":"DashboardServices","method":"save","result":[2907,2901,2909,2903,2899],"type":"rpc"}<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest@309cbd4b</td></tr>
+<tr>
+<td title='com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest.bluecoatcloud_DirectProvider_tests()'><b>bluecoatcloud_DirectProvider_tests</b><br>Test class: com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest<br>Test method: bluecoatcloud directprovider<br>Parameters: Between 07/01/16 and 07/31/16, {
+  "action": "DashboardServices",
+  "method": "save",
+  "data": [
+    {
+      "id": 431,
+      "name": "overview_dbd",
+      "portlets": [
+        {
+          "column": 0,
+          "position": 0,
+          "collapsed": false,
+          "id": 2907,
+          "reportDefinitionId": 19,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"chart\"}"
+        },
+        {
+          "column": 0,
+          "position": 1,
+          "collapsed": false,
+          "id": 2901,
+          "reportDefinitionId": 55,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"grid\"}"
+        },
+        {
+          "column": 1,
+          "position": 0,
+          "collapsed": false,
+          "id": 2909,
+          "reportDefinitionId": 67,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"both\"}"
+        },
+        {
+          "column": 1,
+          "position": 1,
+          "collapsed": false,
+          "id": 2903,
+          "reportDefinitionId": 36,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"both\"}"
+        },
+        {
+          "column": 1,
+          "position": 2,
+          "collapsed": false,
+          "id": 2899,
+          "reportDefinitionId": 37,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"grid\"}"
+        }
+      ],
+      "dateFilter": "{\"dateStart\":1467313172687,\"dateEnd\":1469905172687,\"dateRelativeUnit\":null}"
+    }
+  ],
+  "type": "rpc",
+  "tid": 57
+}<br/>
+<a href="#Output-90117499" onClick='toggleBox("Output-90117499", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-90117499" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-90117499">
+djn API reuest<br/>
+POST Request: https://portal.qa3.bluecoatcloud.com/djn/directprovider<br/>
+Responsefrom API.. {"tid":57,"action":"DashboardServices","method":"save","result":[2907,2901,2909,2903,2899],"type":"rpc"}<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest@309cbd4b</td></tr>
+</table><p>
+</body>
+</html>

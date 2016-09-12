@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="BLue Coat Threat Pulse Test Suite">
+	<parameter name="seleniumServer" value="localhost" />
+	<parameter name="seleniumPort" value="4444" />
+	<parameter name="scheme" value="http" />
+	<parameter name="port" value="" />
+
+	<test name="Blue coat cloud Service Tests " preserve-order="true">
+		<classes>
+			<class name="com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest">
+				<methods>
+					<include name="bluecoatcloud_DirectProvider_tests" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="BlueCoat ThreatPulse Service Test Suite">
+	<parameter name="testEnv" value="qa.portalbluecoat" />
+	<parameter name="seleniumServer" value="localhost" />
+	<parameter name="seleniumPort" value="4444" />
+	<parameter name="scheme" value="http" />
+	<parameter name="port" value="" />
+	<!-- <listeners> <listener class-name="edu.apollogrp.utils.RetryListener" 
+		/> </listeners> -->
+
+	<test name="BlueCoat Threat pulse Service Tests " preserve-order="true">
+		<parameter name="applicationResponseContentType" value="application/json" />
+		<parameter name="applicationRequestContentType" value="application/json" />
+		<parameter name="testEnv" value="qa.portalbluecoat" />
+		<parameter name="scheme" value="http" />
+		<parameter name="port" value="" />
+		<parameter name="baseVersion" value="3" />
+		<parameter name="baseContextName" value="plct" />
+		<parameter name="tenantId" value="bluecoat" />
+		<classes>
+			<class name="com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest">
+				<methods>
+					<include name="bluecoatcloud_DirectProvider_tests" />
+					<exclude name="bluecoatcloud_DirectProvider_withoutPayload_tests" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

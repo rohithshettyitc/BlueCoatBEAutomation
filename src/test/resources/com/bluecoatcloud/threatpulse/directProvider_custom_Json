@@ -1,0 +1,20 @@
+[
+  {
+    "action": "SimpleAppScopeNotifierService",
+    "method": "getMessageUpdatesForLoggedInUser",
+    "data": [
+      [
+        
+      ]
+    ],
+    "type": "rpc",
+    "tid": 27
+  },
+  {
+    "action": "HybridServices",
+    "method": "getPolicyCompileWarnings",
+    "data": null,
+    "type": "rpc",
+    "tid": 28
+  }
+]

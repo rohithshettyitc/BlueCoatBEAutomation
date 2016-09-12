@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BlueCoat ThreatPulse Service Test Suite]">
+  <parameter name="applicationResponseContentType" value="application/json"/>
+  <parameter name="tenantId" value="bluecoat"/>
+  <parameter name="port" value=""/>
+  <parameter name="scheme" value="http"/>
+  <parameter name="testEnv" value="qa.portalbluecoat"/>
+  <parameter name="seleniumServer" value="localhost"/>
+  <parameter name="baseVersion" value="3"/>
+  <parameter name="baseContextName" value="plct"/>
+  <parameter name="applicationRequestContentType" value="application/json"/>
+  <parameter name="seleniumPort" value="4444"/>
+  <test name="BlueCoat Threat pulse Service Tests (failed)">
+    <parameter name="tenantId" value="bluecoat"/>
+    <parameter name="port" value=""/>
+    <parameter name="applicationResponseContentType" value="application/json"/>
+    <parameter name="scheme" value="http"/>
+    <parameter name="testEnv" value="qa.portalbluecoat"/>
+    <parameter name="baseVersion" value="3"/>
+    <parameter name="baseContextName" value="plct"/>
+    <parameter name="applicationRequestContentType" value="application/json"/>
+    <classes>
+      <class name="com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="generateReport"/>
+          <include name="setUp"/>
+          <include name="generatePerformanceReport"/>
+          <include name="bluecoatcloud_DirectProvider_withoutPayload_tests"/>
+        </methods>
+      </class> <!-- com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest -->
+    </classes>
+  </test> <!-- BlueCoat Threat pulse Service Tests (failed) -->
+</suite> <!-- Failed suite [BlueCoat ThreatPulse Service Test Suite] -->

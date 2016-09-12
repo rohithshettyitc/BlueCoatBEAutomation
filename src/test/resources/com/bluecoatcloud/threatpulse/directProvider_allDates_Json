@@ -1,0 +1,69 @@
+{
+  "action": "DashboardServices",
+  "method": "save",
+  "data": [
+    {
+      "id": 431,
+      "name": "overview_dbd",
+      "portlets": [
+        {
+          "column": 0,
+          "position": 0,
+          "collapsed": false,
+          "id": 2907,
+          "reportDefinitionId": 19,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"chart\"}"
+        },
+        {
+          "column": 0,
+          "position": 1,
+          "collapsed": false,
+          "id": 2901,
+          "reportDefinitionId": 55,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"grid\"}"
+        },
+        {
+          "column": 1,
+          "position": 0,
+          "collapsed": false,
+          "id": 2909,
+          "reportDefinitionId": 67,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"both\"}"
+        },
+        {
+          "column": 1,
+          "position": 1,
+          "collapsed": false,
+          "id": 2903,
+          "reportDefinitionId": 36,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"both\"}"
+        },
+        {
+          "column": 1,
+          "position": 2,
+          "collapsed": false,
+          "id": 2899,
+          "reportDefinitionId": 37,
+          "xtype": "bc-reportPortlet",
+          "portletOptions": "{\"displayOption\":\"grid\"}"
+        },
+        {
+          "column": 2,
+          "position": 0,
+          "collapsed": false,
+          "id": 2905,
+          "reportDefinitionId": 31,
+          "xtype": "bc-tagCloudPortlet",
+          "portletOptions": "{\"tagCount\":100,\"weightField\":\"hits\",\"displayWeight\":false}"
+        }
+      ],
+      "dateFilter": "{\"dateStart\":null,\"dateEnd\":null,\"dateRelativeUnit\":null}"
+    }
+  ],
+  "type": "rpc",
+  "tid": 30
+}

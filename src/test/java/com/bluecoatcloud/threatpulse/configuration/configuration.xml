@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>Configuration</comment>
+	<!-- QA Phoenix.Edu -->
+	<entry key="qa.networkprotocol">https</entry>
+	<entry key="qa.host">portal.qa3.bluecoatcloud.com</entry>
+	<entry key="qa.port">8080</entry>
+	<entry key="connectionHeader">keep-alive</entry>
+	
+	
+</properties>

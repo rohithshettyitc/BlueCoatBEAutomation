@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-BlueCoat_ThreatPulse_Service_Test_Suite">
+              <span class="suite-name border-failed">BlueCoat ThreatPulse Service Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-BlueCoat_ThreatPulse_Service_Test_Suite">
+                    <span>F:\BlueCoatBEAutomation-master\bluecoat_failure_regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-BlueCoat_ThreatPulse_Service_Test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-BlueCoat_ThreatPulse_Service_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-BlueCoat_ThreatPulse_Service_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-BlueCoat_ThreatPulse_Service_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-BlueCoat_ThreatPulse_Service_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-BlueCoat_ThreatPulse_Service_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-BlueCoat_ThreatPulse_Service_Test_Suite" class="hide-methods failed suite-BlueCoat_ThreatPulse_Service_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-BlueCoat_ThreatPulse_Service_Test_Suite -->
+                      <a href="#" panel-name="suite-BlueCoat_ThreatPulse_Service_Test_Suite" class="show-methods failed suite-BlueCoat_ThreatPulse_Service_Test_Suite"> (show)</a> <!-- show-methods failed suite-BlueCoat_ThreatPulse_Service_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-BlueCoat_ThreatPulse_Service_Test_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BlueCoat_ThreatPulse_Service_Test_Suite" title="com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest" hash-for-method="bluecoatcloud_DirectProvider_withoutPayload_tests">bluecoatcloud_DirectProvider_withoutPayload_tests</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-BlueCoat_ThreatPulse_Service_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BlueCoat_ThreatPulse_Service_Test_Suite" class="panel BlueCoat_ThreatPulse_Service_Test_Suite">
+          <div class="suite-BlueCoat_ThreatPulse_Service_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bluecoatcloud_DirectProvider_withoutPayload_tests">
+                  </a> <!-- bluecoatcloud_DirectProvider_withoutPayload_tests -->
+                  <span class="method-name">bluecoatcloud_DirectProvider_withoutPayload_tests</span>
+                  <div class="stack-trace">java.lang.AssertionError: No response from API. expected [true] but found [false]
+	at com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest.bluecoatcloud_DirectProvider_withoutPayload_tests(BlueCoatThreatPulseTest.java:433)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(BlueCoatCloud djn directprovider API)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BlueCoat_ThreatPulse_Service_Test_Suite-class-failed -->
+        </div> <!-- panel BlueCoat_ThreatPulse_Service_Test_Suite -->
+        <div panel-name="test-xml-BlueCoat_ThreatPulse_Service_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\BlueCoatBEAutomation-master\bluecoat_failure_regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;BlueCoat ThreatPulse Service Test Suite&quot;&gt;
+  &lt;parameter name=&quot;port&quot; value=&quot;&quot;/&gt;
+  &lt;parameter name=&quot;scheme&quot; value=&quot;http&quot;/&gt;
+  &lt;parameter name=&quot;testEnv&quot; value=&quot;qa.portalbluecoat&quot;/&gt;
+  &lt;parameter name=&quot;seleniumServer&quot; value=&quot;localhost&quot;/&gt;
+  &lt;parameter name=&quot;seleniumPort&quot; value=&quot;4444&quot;/&gt;
+  &lt;test name=&quot;BlueCoat Threat pulse Service Tests &quot;&gt;
+    &lt;parameter name=&quot;tenantId&quot; value=&quot;bluecoat&quot;/&gt;
+    &lt;parameter name=&quot;port&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;applicationResponseContentType&quot; value=&quot;application/json&quot;/&gt;
+    &lt;parameter name=&quot;scheme&quot; value=&quot;http&quot;/&gt;
+    &lt;parameter name=&quot;testEnv&quot; value=&quot;qa.portalbluecoat&quot;/&gt;
+    &lt;parameter name=&quot;baseVersion&quot; value=&quot;3&quot;/&gt;
+    &lt;parameter name=&quot;baseContextName&quot; value=&quot;plct&quot;/&gt;
+    &lt;parameter name=&quot;applicationRequestContentType&quot; value=&quot;application/json&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;bluecoatcloud_DirectProvider_withoutPayload_tests&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BlueCoat Threat pulse Service Tests  --&gt;
+&lt;/suite&gt; &lt;!-- BlueCoat ThreatPulse Service Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BlueCoat_ThreatPulse_Service_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BlueCoat ThreatPulse Service Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BlueCoat Threat pulse Service Tests  (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BlueCoat_ThreatPulse_Service_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BlueCoat ThreatPulse Service Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BlueCoat_ThreatPulse_Service_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BlueCoat ThreatPulse Service Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BlueCoat_ThreatPulse_Service_Test_Suite');
+function tableData_BlueCoat_ThreatPulse_Service_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'bluecoatcloud_DirectProvider_withoutPayload_tests')
+data.setCell(0, 2, 'com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest')
+data.setCell(0, 3, 2974);
+window.suiteTableData['BlueCoat_ThreatPulse_Service_Test_Suite']= { tableData: data, tableDiv: 'times-div-BlueCoat_ThreatPulse_Service_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-BlueCoat_ThreatPulse_Service_Test_Suite">
+              </div> <!-- times-div-BlueCoat_ThreatPulse_Service_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BlueCoat_ThreatPulse_Service_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BlueCoat ThreatPulse Service Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">bluecoatcloud_DirectProvider_withoutPayload_tests</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">djn API reuest</span>
+                <span class="reporter-method-output">POST Request: https://portal.qa3.bluecoatcloud.com/djn/directprovider/</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BlueCoat_ThreatPulse_Service_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">bluecoatcloud_DirectProvider_tests</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BlueCoat_ThreatPulse_Service_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluecoatcloud.threatpulse.tests.BlueCoatThreatPulseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialize(qa.portalbluecoat, application/json, application/json, OAUTH, localhost, 4444, bluecoat, 3, , , , pl...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1102 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">bluecoatcloud_DirectProvider_withoutPayload_tests</span>
+                <span class="method-start">1915 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">4897 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">generatePerformanceReport</span>
+                <span class="method-start">4905 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
